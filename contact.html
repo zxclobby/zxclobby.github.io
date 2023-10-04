@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты - Ювелирная мастерская "Аметист"</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+       <h1 class="site-title">Мастерская "Аметист"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Наши контакты</h2>
+        <address>
+            <p>Телефон: 89250056019</p>
+            <p>Email: Derijably@rambler.ru</p>
+        </address>
+        <!-- Текст с измененным цветом -->
+<h2 class="contact-text">Если у вас возникли вопросы, или вы хотели бы заказать у нас украшение, не стесняйтесь связаться с нами. Наши мастера всегда готовы помочь вам воплотить в жизнь ваши ювелирные мечты. Мы находимся в небольшой, уютной мастерской, где творчество и профессионализм идут рука об руку.</h2>
+
+        <!-- Форма для заявок на консультацию -->
+        <form action="submit_form.php" method="post">
+            <h2>Заявка на консультацию</h2>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Отправить заявку">
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Ювелирная мастерская "Аметист"</p>
+    </footer>
+</body>
+</html>

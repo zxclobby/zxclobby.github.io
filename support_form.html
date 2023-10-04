@@ -1,0 +1,23 @@
+<!-- support_form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма поддержки</title>
+</head>
+<body>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Имя:</label>
+        <input type="text" name="name" required><br>
+
+        <label for="phone">Телефон:</label>
+        <input type="text" name="phone" required><br>
+
+        <label for="message">Сообщение:</label>
+        <textarea name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Отправить заявку">
+    </form>
+</body>
+</html>

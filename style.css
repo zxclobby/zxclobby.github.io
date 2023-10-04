@@ -1,0 +1,93 @@
+/* Стили для шапки сайта */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Стили для карточек украшений */
+.jewelry-item {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.jewelry-item img {
+    max-width: 100%;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Дополнительные стили для контактов */
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+/* Стили для шрифта текста */
+.contact-text {
+    font-family: Arial, sans-serif; /* Новый шрифт (замените на нужный шрифт) */
+    font-size: 16px; /* Размер шрифта (по желанию) */
+    font-weight: normal; /* Толщина шрифта (по желанию) */
+    line-height: 1.5; /* Междустрочное расстояние (по желанию) */
+    color: #333; /* Цвет текста (по желанию) */
+}
+/* Стили для заголовка "Мастерская 'Аметист'" */
+.site-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Установите желаемый цвет текста (белый) */
+    margin: 0; /* Убираем отступы вокруг заголовка */
+    padding: 10px; /* Добавляем отступ сверху и снизу для визуального разделения от навигации */
+}
+
